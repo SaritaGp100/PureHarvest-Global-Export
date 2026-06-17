@@ -1,54 +1,79 @@
-import GlassCard from "./GlassCard";
+import Image from "next/image";
 
 interface ProductCardProps {
   name: string;
   origin: string;
   moq: string;
+  image: string;
 }
 
 export default function ProductCard({
   name,
   origin,
   moq,
+  image,
 }: ProductCardProps) {
   return (
-    <GlassCard
+    <div
       className="
-      p-5
-      sm:p-6
-      hover:-translate-y-2
-      transition
+      overflow-hidden
+      rounded-2xl
+      bg-white
+      shadow-lg
+      transition-all
       duration-300
+      hover:-translate-y-2
+      hover:shadow-2xl
       "
     >
-      <div className="h-48 bg-slate-100 rounded-2xl mb-5" />
+      {/* Product Image */}
+      <div className="relative h-56 overflow-hidden">
+        <Image
+          src={image}
+          alt={name}
+          fill
+          className="object-cover transition duration-500 hover:scale-110"
+        />
+      </div>
 
-      <h3 className="text-xl font-semibold">
-        {name}
-      </h3>
+      {/* Product Details */}
+      <div className="p-6">
+        <h3 className="text-xl font-semibold text-slate-900">
+          {name}
+        </h3>
 
-      <p className="mt-2 text-slate-600">
-        Origin: {origin}
-      </p>
+        <p className="mt-2 text-slate-600">
+          Origin: {origin}
+        </p>
 
-      <p className="text-slate-600">
-        MOQ: {moq}
-      </p>
+        <p className="text-slate-600">
+          MOQ: {moq}
+        </p>
 
-      <button
-        className="
-        w-full
-        mt-6
-        bg-green-800
-        text-white
-        py-3
-        rounded-xl
-        hover:bg-green-700
-        transition
-        "
-      >
-        Request Quote
-      </button>
-    </GlassCard>
+        <a
+          href={`https://wa.me/918369759857?text=Hello%20I%20am%20interested%20in%20${encodeURIComponent(
+            name
+          )}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="
+            mt-5
+            inline-flex
+            w-full
+            justify-center
+            rounded-xl
+            bg-green-800
+            px-4
+            py-3
+            text-white
+            font-medium
+            hover:bg-green-700
+            transition
+          "
+        >
+          Request Quote
+        </a>
+      </div>
+    </div>
   );
 }

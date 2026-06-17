@@ -1,54 +1,39 @@
-// export const products = [
-//   {
-//     id: 1,
-//     name: "Turmeric Powder",
-//     slug: "turmeric-powder",
-//     image: "/images/turmeric.jpg",
-//   },
-//   {
-//     id: 2,
-//     name: "Red Chilli Powder",
-//     slug: "red-chilli-powder",
-//     image: "/images/chilli.jpg",
-//   },
-//   {
-//     id: 3,
-//     name: "Cumin Seeds",
-//     slug: "cumin-seeds",
-//     image: "/images/cumin.jpg",
-//   },
-// ];
-
 
 export const products = [
   {
     name: "Turmeric Powder",
     origin: "India",
     moq: "500 KG",
+    image: "/images/img_turmeric.jpg",
   },
   {
     name: "Red Chilli Powder",
     origin: "India",
     moq: "500 KG",
+    image: "/images/img_Red_Chilli_Powder.jpg",
   },
   {
     name: "Cumin Seeds",
     origin: "India",
     moq: "500 KG",
+    image: "/images/img_Cumin_Seeds.jpg",
   },
   {
     name: "Coriander Seeds",
     origin: "India",
     moq: "500 KG",
+    image: "/images/img_Coriander_Seeds.jpg",
   },
   {
     name: "Black Pepper",
     origin: "India",
     moq: "250 KG",
+    image: "/images/img_Black_Pepper.jpg",
   },
   {
     name: "Cardamom",
     origin: "India",
     moq: "100 KG",
+    image: "/images/img_Cardamom.jpg",
   },
 ];
