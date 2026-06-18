@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { Mail, Phone, MapPin } from "lucide-react";
 
 export default function Footer() {
   const pathname = usePathname();
@@ -27,8 +28,8 @@ export default function Footer() {
             </h3>
 
             <p className="leading-relaxed">
-              Premium Indian spices and agricultural products
-              sourced with quality and exported worldwide.
+                Your trusted partner for sourcing quality products
+                from India and managing seamless international exports.
             </p>
           </div>
 
@@ -65,18 +66,31 @@ export default function Footer() {
               Contact Us
             </h3>
 
-            <div className="space-y-3">
-              <p>Nerul, Navi Mumbai, India</p>
+           <div className="space-y-4">
+            <p className="flex items-center gap-2">
+                <MapPin size={18} />
+                Nerul, Navi Mumbai, India
+            </p>
 
-              <p>
-                <a href="tel:+918369759857" className="hover:text-white">
-                  +91 83697 59857
+            <p>
+                <a
+                href="tel:+918369759857"
+                className="hover:text-white flex items-center gap-2"
+                >
+                <Phone size={18} />
+                +91 83697 59857
                 </a>
-              </p>
+            </p>
 
-              <p>
+            <p>
+                <a
+                href="mailto:pureharvestglobalexports@gmail.com"
+                className="hover:text-white flex items-center gap-2"
+                >
+                <Mail size={18} />
                 pureharvestglobalexports@gmail.com
-              </p>
+                </a>
+            </p>
             </div>
           </div>
 
