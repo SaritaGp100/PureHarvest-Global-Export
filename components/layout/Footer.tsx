@@ -1,6 +1,19 @@
+"use client";
+
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 export default function Footer() {
+  const pathname = usePathname();
+
+  const links = [
+    { href: "/", label: "Home" },
+    { href: "/about", label: "About" },
+    { href: "/products", label: "Products" },
+    { href: "/export-process", label: "Export Process" },
+    { href: "/contact", label: "Contact" },
+  ];
+
   return (
     <footer className="bg-slate-950 text-slate-300">
       <div className="max-w-7xl mx-auto px-6 py-16">
@@ -26,11 +39,23 @@ export default function Footer() {
             </h3>
 
             <div className="flex flex-col gap-3">
-              <Link href="/">Home</Link>
-              <Link href="/about">About</Link>
-              <Link href="/products">Products</Link>
-              <Link href="/export-process">Export Process</Link>
-              <Link href="/contact">Contact</Link>
+              {links.map((link) => {
+                const isActive = pathname === link.href;
+
+                return (
+                  <Link
+                    key={link.href}
+                    href={link.href}
+                    className={`transition ${
+                      isActive
+                        ? "text-amber-400 font-semibold"
+                        : "hover:text-white"
+                    }`}
+                  >
+                    {link.label}
+                  </Link>
+                );
+              })}
             </div>
           </div>
 
@@ -44,7 +69,7 @@ export default function Footer() {
               <p>Nerul, Navi Mumbai, India</p>
 
               <p>
-                <a href="tel:+918369759857">
+                <a href="tel:+918369759857" className="hover:text-white">
                   +91 83697 59857
                 </a>
               </p>
@@ -61,6 +86,7 @@ export default function Footer() {
           © {new Date().getFullYear()} Pure Harvest Global Exports.
           All Rights Reserved.
         </div>
+
       </div>
     </footer>
   );

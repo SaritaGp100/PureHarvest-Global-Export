@@ -1,92 +1,112 @@
+"use client";
+
+import { useState } from "react";
+
 export default function ContactPage() {
+  const [form, setForm] = useState({
+    name: "",
+    email: "",
+    product: "",
+    quantity: "",
+    country: "",
+    message: "",
+  });
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    setForm({ ...form, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+
+    const whatsappNumber = "918369759857";
+
+    const text = `
+*New Export Inquiry*
+
+Name: ${form.name}
+Email: ${form.email}
+Product: ${form.product}
+Quantity: ${form.quantity}
+Country: ${form.country}
+Message: ${form.message}
+    `;
+
+    const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(text)}`;
+
+    window.open(url, "_blank");
+  };
+
   return (
     <section className="py-24">
       <div className="max-w-7xl mx-auto px-5">
 
         <div className="grid lg:grid-cols-2 gap-12">
 
+          {/* LEFT INFO */}
           <div>
-
-            <h1 className="text-5xl font-bold">
-              Contact Us
+            <h1 className="text-4xl md:text-5xl font-bold">
+              Get Export Quotation
             </h1>
 
             <p className="mt-6 text-slate-600">
-              Looking for premium Indian spices and
-              agricultural products?
+              Send us your requirements and we will connect you with verified suppliers.
             </p>
-
-            <div className="mt-10 space-y-4">
-
-              <div>
-                <h3 className="font-semibold">
-                  Location
-                </h3>
-
-                <p>Nerul, Navi Mumbai, India</p>
-              </div>
-
-              <div>
-                <h3 className="font-semibold">
-                  Phone
-                </h3>
-
-                <p>+91 83697 59857</p>
-              </div>
-
-              <div>
-                <h3 className="font-semibold">
-                  Email
-                </h3>
-
-                <p>info@pureharvestglobalexports.com</p>
-              </div>
-
-            </div>
-
-            <a
-              href="https://wa.me/918369759857"
-              target="_blank"
-              className="inline-flex mt-8 px-8 py-4 rounded-xl bg-green-700 text-white"
-            >
-              Chat on WhatsApp
-            </a>
-
           </div>
 
+          {/* FORM */}
           <div className="glass-card rounded-3xl p-8">
 
-            <form className="space-y-5">
+            <form onSubmit={handleSubmit} className="space-y-5">
 
               <input
-                type="text"
-                placeholder="Name"
+                name="name"
+                placeholder="Full Name"
+                onChange={handleChange}
                 className="w-full border rounded-xl p-4"
               />
 
               <input
-                type="email"
-                placeholder="Email"
+                name="email"
+                placeholder="Email Address"
+                onChange={handleChange}
                 className="w-full border rounded-xl p-4"
               />
 
               <input
-                type="text"
+                name="product"
                 placeholder="Product Required"
+                onChange={handleChange}
+                className="w-full border rounded-xl p-4"
+              />
+
+              <input
+                name="quantity"
+                placeholder="Quantity"
+                onChange={handleChange}
+                className="w-full border rounded-xl p-4"
+              />
+
+              <input
+                name="country"
+                placeholder="Destination Country"
+                onChange={handleChange}
                 className="w-full border rounded-xl p-4"
               />
 
               <textarea
-                rows={5}
-                placeholder="Message"
+                name="message"
+                placeholder="Additional Requirements"
+                rows={4}
+                onChange={handleChange}
                 className="w-full border rounded-xl p-4"
               />
 
               <button
                 type="submit"
-                className="btn-primary px-8 py-4 rounded-xl"
+                className="w-full bg-green-700 text-white py-4 rounded-xl font-semibold hover:bg-green-800 transition"
               >
-                Send Inquiry
+                Request Export Quote on WhatsApp
               </button>
 
             </form>
