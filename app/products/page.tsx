@@ -3,7 +3,7 @@ import ProductCard from "@/components/ui/ProductCard";
 
 export default function ProductsPage() {
   return (
-    <section className="py-24">
+    <section className="py-10">
       <div className="max-w-7xl mx-auto px-5">
 
         <h1 className="text-5xl font-bold mb-12">
