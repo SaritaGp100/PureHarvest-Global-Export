@@ -75,7 +75,7 @@ export default function Footer() {
               </p>
 
               <p>
-                info@pureharvestglobalexports.com
+                pureharvestglobalexports@gmail.com
               </p>
             </div>
           </div>
