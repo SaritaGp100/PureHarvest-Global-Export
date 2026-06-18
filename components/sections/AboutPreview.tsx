@@ -1,7 +1,7 @@
 
 export default function AboutPreview() {
   return (
-    <section className="py-24 bg-white">
+    <section className="py-5 bg-white">
       <div className="container mx-auto px-6 text-center">
         <span className="text-green-600 font-semibold uppercase tracking-wider">
           Pure Harvest Global Exports

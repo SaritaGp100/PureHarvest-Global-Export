@@ -1,6 +1,6 @@
 export default function FeaturedProducts() {
   return (
-    <section className="py-24 bg-gray-50 text-center">
+    <section className="py-15 bg-gray-50 text-center">
       <div className="container mx-auto px-6">
         <h2 className="text-4xl font-bold mb-4">
           Products We Source & Export

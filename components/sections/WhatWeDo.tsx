@@ -1,6 +1,6 @@
 export default function WhatWeDo() {
   return (
-    <section className="py-24 bg-white">
+    <section className="py-15 bg-white">
       <div className="container mx-auto px-6 text-center">
         <h2 className="text-4xl font-bold mb-6">
           Connecting Global Buyers with Trusted Indian Suppliers

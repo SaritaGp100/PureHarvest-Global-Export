@@ -1,6 +1,6 @@
 export default function RequestQuoteCTA() {
   return (
-    <section className="py-24 bg-green-600 text-white text-center">
+    <section className="py-15 bg-green-600 text-white text-center">
       <div className="container mx-auto px-6">
         <h2 className="text-4xl font-bold mb-4">
           Looking for a Reliable Export Partner?
