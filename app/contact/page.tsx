@@ -40,23 +40,28 @@ export default function ContactPage() {
     const whatsappNumber = "918369759857";
 
     const text = `
-Hello Pure Harvest Global Exports 👋
+Dear Pure Harvest Global Exports,
 
-I would like to get an export quotation for the following requirement:
+I am reaching out to request a premium export quotation for the following requirement:
 
-🌿 Product: ${form.product}
-⚖ Quantity: ${form.quantity}
-🌍 Destination Country: ${form.country}
+1. Product: ${form.product}
+2. Quantity: ${form.quantity}
+3. Destination Country: ${form.country}
 
-👤 Name: ${form.name}
-📧 Email: ${form.email}
+Buyer Details:
+Name: ${form.name}
+Email: ${form.email}
 
-📝 Additional Requirements:
+Additional Requirements:
 ${form.message || "Not specified"}
 
-Looking forward to your best possible pricing and details.
-Thank you.
-    `;
+Kindly share a detailed and professional quotation including specifications, available grades, packaging options, and delivery timelines.
+
+Looking forward to your response.
+
+Best regards,
+${form.name}
+`;
 
     const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(text)}`;
 
