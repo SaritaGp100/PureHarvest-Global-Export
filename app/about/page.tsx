@@ -1,3 +1,4 @@
+
 export default function AboutPage() {
   return (
     <main className="bg-white">
@@ -15,21 +16,25 @@ export default function AboutPage() {
 
             {/* Heading */}
             <h1 className="mt-5 text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] tracking-tight text-slate-950">
-              Your Reliable Sourcing & Export Partner From India
+              Your Reliable Indian Spice Sourcing & Export Partner
             </h1>
 
             {/* Introduction */}
             <p className="mt-7 max-w-3xl text-lg md:text-xl text-slate-600 leading-8">
-              Pure Harvest Global Exports is an India-based merchant export
-              and sourcing company connecting international buyers with
-              carefully selected Indian suppliers of spices and agricultural
-              products.
+              Pure Harvest Global Exports is an India-based merchant exporter
+              and sourcing company specializing in Indian spices. We connect
+              international buyers with carefully selected Indian suppliers
+              to source products according to their required specifications,
+              quantities, packaging, and commercial requirements.
             </p>
 
             <p className="mt-5 max-w-3xl text-base md:text-lg text-slate-600 leading-8">
-              We focus on making international sourcing simpler through clear
-              communication, competitive procurement, quality-focused
-              sourcing, and coordinated export execution.
+              As a merchant exporter, we focus on sourcing the right products
+              from suitable suppliers and coordinating the commercial and
+              export process for our international customers. Our approach is
+              built around clear communication, competitive sourcing, quality
+              coordination, proper documentation, and dependable shipment
+              execution.
             </p>
 
           </div>
@@ -51,15 +56,16 @@ export default function AboutPage() {
               </div>
 
               <h3 className="text-xl font-bold text-slate-950">
-                Strategic Sourcing
+                Spice Sourcing
               </h3>
 
               <p className="mt-3 text-sm leading-7 text-slate-600">
-                We connect buyers with suitable Indian suppliers based on
-                product requirements, specifications, quantity, and commercial
-                expectations.
+                We source Indian spices from suitable suppliers based on the
+                buyer's required product, grade, quantity, specifications,
+                packaging, and destination market.
               </p>
             </div>
+
 
             {/* Quality */}
             <div className="rounded-3xl bg-white border border-slate-200 p-8 shadow-sm">
@@ -68,15 +74,16 @@ export default function AboutPage() {
               </div>
 
               <h3 className="text-xl font-bold text-slate-950">
-                Quality-Focused Procurement
+                Quality Coordination
               </h3>
 
               <p className="mt-3 text-sm leading-7 text-slate-600">
-                We work with suppliers to align product specifications,
-                packaging requirements, documentation, and quality expectations
-                before shipment.
+                We coordinate with suppliers to align product specifications,
+                quality requirements, packaging, testing, and relevant
+                documentation before shipment.
               </p>
             </div>
+
 
             {/* Export */}
             <div className="rounded-3xl bg-white border border-slate-200 p-8 shadow-sm">
@@ -85,12 +92,13 @@ export default function AboutPage() {
               </div>
 
               <h3 className="text-xl font-bold text-slate-950">
-                Export Coordination
+                Merchant Export
               </h3>
 
               <p className="mt-3 text-sm leading-7 text-slate-600">
-                From commercial discussions to shipment coordination, we help
-                keep the export process organized and transparent.
+                We manage the commercial side of the export order and
+                coordinate with suppliers, freight forwarders, and other
+                relevant partners to support smooth shipment execution.
               </p>
             </div>
 
@@ -113,14 +121,14 @@ export default function AboutPage() {
               </span>
 
               <h2 className="mt-4 text-3xl font-bold">
-                Making Indian sourcing simpler for global buyers.
+                Making Indian spice sourcing simpler for global buyers.
               </h2>
 
               <p className="mt-5 text-slate-300 leading-8">
-                Our mission is to simplify the sourcing of Indian agricultural
-                products by bringing buyers and suitable suppliers together
-                through transparent communication, organized procurement, and
-                dependable export coordination.
+                Our mission is to make sourcing Indian spices more convenient
+                for international buyers by connecting them with suitable
+                Indian suppliers and coordinating the procurement and export
+                process with transparency and professionalism.
               </p>
             </div>
 
@@ -132,14 +140,14 @@ export default function AboutPage() {
               </span>
 
               <h2 className="mt-4 text-3xl font-bold text-slate-950">
-                Building lasting connections across global markets.
+                Building trusted connections between Indian spice suppliers and global buyers.
               </h2>
 
               <p className="mt-5 text-slate-600 leading-8">
-                We aim to build long-term business relationships between
-                international buyers and Indian suppliers, with a focus on
-                reliability, integrity, quality, and professional trade
-                execution.
+                We aim to build long-term international business relationships
+                by providing reliable sourcing, transparent communication,
+                consistent coordination, and professional merchant export
+                services for Indian spices.
               </p>
             </div>
 
@@ -159,13 +167,14 @@ export default function AboutPage() {
             </span>
 
             <h2 className="mt-4 text-3xl md:text-4xl font-bold tracking-tight text-slate-950">
-              A practical approach to international sourcing
+              A practical approach to sourcing Indian spices
             </h2>
 
             <p className="mt-5 text-lg leading-8 text-slate-600">
-              We understand that international buyers need more than a
-              product supplier. They need clear communication, dependable
-              coordination, and visibility throughout the sourcing process.
+              International buyers need more than access to a product. They
+              need clear communication, suitable suppliers, transparent
+              commercial discussions, and organized coordination throughout
+              the export process.
             </p>
           </div>
 
@@ -175,12 +184,13 @@ export default function AboutPage() {
             {/* Card 1 */}
             <div className="rounded-3xl border border-slate-200 bg-white p-7">
               <h3 className="text-xl font-bold text-slate-950">
-                Supplier Network
+                Indian Spice Suppliers
               </h3>
 
               <p className="mt-3 text-sm leading-7 text-slate-600">
-                Access to a network of Indian suppliers across our product
-                categories, selected according to buyer requirements.
+                We connect buyers with suitable Indian suppliers for products
+                such as turmeric, red chilli, coriander, cumin, black pepper,
+                cardamom, and other spices based on their requirements.
               </p>
             </div>
 
@@ -188,12 +198,13 @@ export default function AboutPage() {
             {/* Card 2 */}
             <div className="rounded-3xl border border-slate-200 bg-white p-7">
               <h3 className="text-xl font-bold text-slate-950">
-                Clear Communication
+                Buyer-Focused Sourcing
               </h3>
 
               <p className="mt-3 text-sm leading-7 text-slate-600">
-                Straightforward discussions on specifications, pricing,
-                packaging, quantities, documentation, and timelines.
+                We discuss product specifications, quantity, packaging,
+                pricing, documentation, and delivery requirements before
+                finalizing the sourcing arrangement.
               </p>
             </div>
 
@@ -205,8 +216,9 @@ export default function AboutPage() {
               </h3>
 
               <p className="mt-3 text-sm leading-7 text-slate-600">
-                Coordinated support throughout the order and shipment process,
-                working with relevant suppliers and logistics partners.
+                We coordinate the export order with suppliers and logistics
+                partners, helping keep documentation, shipment arrangements,
+                and communication organized.
               </p>
             </div>
 
@@ -225,12 +237,12 @@ export default function AboutPage() {
           </span>
 
           <h2 className="mt-4 text-3xl md:text-4xl font-bold text-slate-950">
-            Looking for Indian spices or agricultural products?
+            Looking to source Indian spices?
           </h2>
 
           <p className="mx-auto mt-5 max-w-2xl text-lg leading-8 text-slate-600">
-            Share your product requirements, quantity, specifications, and
-            destination market with our team.
+            Share your required spice, quantity, specifications, packaging
+            requirements, and destination market with our team.
           </p>
 
           <a
@@ -246,3 +258,4 @@ export default function AboutPage() {
     </main>
   );
 }
+

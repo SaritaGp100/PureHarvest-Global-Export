@@ -4,14 +4,14 @@ export const products = [
     name: "Turmeric Powder",
     origin: "India",
     moq: "500 KG",
-    image: "/images/img_turmeric.jpg",
+    image: "/images/img_Whole_turmeric.jpg",
   },
   {
-    name: "Red Chilli Powder",
+    name: "Whole Dry Red Chili",
     origin: "India",
     moq: "500 KG",
-    image: "/images/img_Red_Chilli_Powder.jpg",
-  },
+    image: "/images/Whole_Dry_Red_ Chili.jpg",
+  },  
   {
     name: "Cumin Seeds",
     origin: "India",
@@ -24,6 +24,7 @@ export const products = [
     moq: "500 KG",
     image: "/images/img_Coriander_Seeds.jpg",
   },
+
   {
     name: "Black Pepper",
     origin: "India",

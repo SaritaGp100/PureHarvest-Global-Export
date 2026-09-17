@@ -25,32 +25,33 @@ export default function Navbar() {
         <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
           <div className="flex h-[76px] items-center justify-between">
             {/* LOGO */}
-            <Link
-              href="/"
-              className="group flex items-center gap-3"
-              aria-label="Pure Harvest Global Exports - Home"
-            >
-              <div className="relative flex h-11 w-11 items-center justify-center overflow-hidden">
-                <Image
-                  src="/images/pureHarvest_logo.png"
-                  alt="Pure Harvest Global Exports"
-                  width={50}
-                  height={50}
-                  priority
-                  className="h-11 w-11 object-contain transition-transform duration-300 group-hover:scale-105"
-                />
-              </div>
+           {/* LOGO */}
+<Link
+  href="/"
+  className="group flex items-center gap-3"
+  aria-label="Pure Harvest Global Exports - Home"
+>
+  <div className="relative h-16 w-16 shrink-0">
+    <Image
+      src="/images/pureHarvest_logo.png"
+      alt="Pure Harvest Global Exports"
+      width={80}
+      height={80}
+      priority
+      className="h-16 w-16 object-contain transition-transform duration-300 group-hover:scale-105"
+    />
+  </div>
 
-              <div className="leading-none">
-                <div className="text-[17px] font-bold tracking-tight text-slate-950 transition-colors group-hover:text-amber-600">
-                  Pure Harvest
-                </div>
+  <div className="leading-none">
+    <div className="text-[17px] font-bold tracking-tight text-slate-950">
+      Pure Harvest
+    </div>
 
-                <div className="mt-1 text-[10px] font-semibold uppercase tracking-[0.18em] text-slate-500">
-                  Global Exports
-                </div>
-              </div>
-            </Link>
+    <div className="mt-1 text-[10px] font-semibold uppercase tracking-[0.18em] text-slate-500">
+      Global Exports
+    </div>
+  </div>
+</Link>
 
             {/* DESKTOP NAVIGATION */}
             <nav

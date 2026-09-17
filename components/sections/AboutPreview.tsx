@@ -11,23 +11,23 @@ export default function AboutPreview() {
     {
       icon: Handshake,
       number: "01",
-      title: "Strategic Sourcing",
+      title: "Indian Spice Sourcing",
       description:
-        "We connect international buyers with suitable Indian suppliers based on product requirements, quantity, specifications, and commercial expectations.",
+        "We connect international buyers with suitable Indian spice suppliers based on product, quantity, specifications, packaging, and commercial requirements.",
     },
     {
       icon: Globe2,
       number: "02",
-      title: "Competitive Quotations",
+      title: "Buyer-Focused Quotations",
       description:
-        "We work to develop sourcing options and commercial quotations aligned with your product specifications and destination market.",
+        "We develop sourcing options and commercial quotations according to the buyer's required specifications, order quantity, packaging, and destination market.",
     },
     {
       icon: FileCheck2,
       number: "03",
       title: "Export Coordination",
       description:
-        "We coordinate sourcing, documentation, packaging, and shipment requirements with relevant suppliers and logistics partners.",
+        "We coordinate supplier communication, documentation, packaging requirements, and shipment arrangements with the relevant suppliers and logistics partners.",
     },
   ];
 
@@ -41,15 +41,15 @@ export default function AboutPreview() {
           </span>
 
           <h2 className="mt-5 text-3xl font-bold leading-tight tracking-tight text-slate-950 md:text-4xl lg:text-5xl">
-            Your Sourcing & Export Partner From India
+            Your Indian Spice Sourcing & Export Partner
           </h2>
 
           <p className="mx-auto mt-6 max-w-3xl text-base leading-8 text-slate-600 md:text-lg">
-            Pure Harvest Global Exports connects international buyers with
-            suitable Indian suppliers of spices and agricultural products.
-            We simplify the sourcing process through clear communication,
-            competitive procurement, documentation coordination, and
-            organized export support.
+            Pure Harvest Global Exports is an India-based merchant exporter
+            specializing in Indian spices. We connect international buyers
+            with suitable Indian suppliers and coordinate sourcing,
+            commercial requirements, documentation, and export arrangements
+            according to each order.
           </p>
         </div>
 
@@ -94,13 +94,14 @@ export default function AboutPreview() {
             </span>
 
             <h3 className="mt-2 text-2xl font-bold text-slate-950">
-              Making international sourcing simpler
+              Making Indian spice sourcing simpler
             </h3>
 
             <p className="mt-3 text-sm leading-7 text-slate-600">
-              From the initial buyer requirement to sourcing and shipment
-              coordination, we focus on keeping each stage of the export
-              process clear and organized.
+              From the initial buyer requirement to supplier sourcing,
+              commercial coordination, documentation, and shipment
+              arrangements, we focus on keeping the export process clear and
+              organized.
             </p>
           </div>
 
@@ -120,3 +121,4 @@ export default function AboutPreview() {
     </section>
   );
 }
+
