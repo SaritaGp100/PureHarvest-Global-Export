@@ -134,7 +134,7 @@ ${form.name}
               <div className="mt-10 space-y-6">
                 {/* ADDRESS */}
                 <a
-                  href="https://www.google.com/maps/search/?api=1&query=Innov8+Q+Parc+Plot+No+GEN-4%2F1+Floor+13+Building+Q2+GA+Thane+Mumbai+400701"
+                  href= "https://www.google.com/maps/search/?api=1&query=Innov8+Q+Parc+Plot+No+GEN-4%2F1+Floor+13+Building+Q2+TTC+Industrial+Area+Ghansoli+Thane+Mumbai+400701"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group flex items-start gap-4"
@@ -150,7 +150,8 @@ ${form.name}
 
                     <p className="mt-1 text-sm leading-6 text-slate-600 group-hover:text-slate-950 transition">
                       Innov8 Q Parc, Plot No. GEN-4/1, Floor 13, Building Q2,
-                      GA Thane, Thane, Mumbai – 400701, Maharashtra, India
+                      TTC Industrial Area, Ghansoli, Thane, Mumbai – 400701,
+                      Maharashtra, India
                     </p>
 
                     <p className="mt-1 text-xs font-medium text-amber-600 opacity-0 transition group-hover:opacity-100">

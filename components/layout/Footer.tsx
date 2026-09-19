@@ -16,11 +16,11 @@ export default function Footer() {
   ];
 
   const address =
-    "Innov8 Q Parc, Plot No. GEN-4/1, Floor 13, Building Q2, GA Thane, Thane, Mumbai – 400701, Maharashtra, India";
+  "Innov8 Q Parc, Plot No. GEN-4/1, Floor 13, Building Q2, TTC Industrial Area, Ghansoli, Thane, Mumbai – 400701, Maharashtra, India";
 
   const mapUrl =
-    "https://www.google.com/maps/search/?api=1&query=Innov8+Q+Parc+Plot+No+GEN-4%2F1+Floor+13+Building+Q2+GA+Thane+Mumbai+400701";
-
+    "https://www.google.com/maps/search/?api=1&query=Innov8+Q+Parc+Plot+No+GEN-4%2F1+Floor+13+Building+Q2+TTC+Industrial+Area+Ghansoli+Thane+Mumbai+400701";
+    
   return (
     <footer className="overflow-hidden bg-slate-950 text-slate-400">
       <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
