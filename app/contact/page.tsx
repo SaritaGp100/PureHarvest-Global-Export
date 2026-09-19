@@ -124,10 +124,9 @@ ${form.name}
               </h2>
 
               <p className="mt-5 text-base leading-7 text-slate-600">
-                Whether you are looking for spices, agricultural products, or
-                a specific Indian-origin product, share your requirement with
-                us. We can discuss sourcing, specifications, quantity,
-                packaging, and export requirements.
+                Whether you are looking for Indian spices or a specific spice requirement, share your details with us. 
+                We can discuss product specifications, quantity, packaging, pricing, 
+                and export requirements based on your market needs.
               </p>
 
               {/* CONTACT DETAILS */}
