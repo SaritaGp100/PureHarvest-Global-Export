@@ -24,28 +24,27 @@ export default function Navbar() {
     <>
       <header className="sticky top-0 z-50 border-b border-slate-200/80 bg-white/90 backdrop-blur-xl">
         <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
-          <div className="flex h-[76px] items-center justify-between">          
+          <div className="flex h-[76px] items-center justify-between">         
            
-         {/* LOGO */}
+         {/* LOGO */}       
+
         <Link
           href="/"
-          className="group flex items-center"
+          className="group absolute left-1/2 flex -translate-x-1/2 items-center lg:static lg:translate-x-0"
           aria-label="Pure Harvest Global Exports - Home"
         >
-        <div className="relative h-[70px] w-[180px] shrink-0">
-          <Image
-            src="/images/New_logo_PureHarvest.png"
-            alt="Pure Harvest Global Exports"
-            width={220}
-            height={90}
-            priority
-            className="h-full w-full object-contain transition-transform duration-300 group-hover:scale-[1.03]"
-          />
-        </div>
-</Link>
-
-
-
+          <div className="relative h-[64px] w-[170px] shrink-0 sm:h-[68px] sm:w-[180px] lg:h-[70px] lg:w-[180px]">
+            <Image
+              src="/images/New_logo_PureHarvest.png"
+              alt="Pure Harvest Global Exports"
+              width={220}
+              height={90}
+              priority
+              className="h-full w-full object-contain transition-transform duration-300 group-hover:scale-[1.03]"
+            />
+          </div>
+      </Link>
+      
             {/* DESKTOP NAVIGATION */}
             <nav
               className="hidden items-center gap-1 lg:flex"
