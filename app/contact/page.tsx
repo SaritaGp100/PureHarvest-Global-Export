@@ -89,25 +89,7 @@ ${form.name}
 
   return (
     <main className="bg-white">
-      {/* HERO */}
-      <section className="py-16 md:py-24">
-        <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
-          <div className="max-w-4xl">
-            <span className="text-sm font-semibold uppercase tracking-[0.2em] text-amber-600">
-              Contact Pure Harvest
-            </span>
-
-            <h1 className="mt-5 text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] tracking-tight text-slate-950">
-              Let&apos;s Discuss Your Export Requirement
-            </h1>
-
-            <p className="mt-7 max-w-3xl text-lg md:text-xl leading-8 text-slate-600">
-              Tell us what you are looking for and our team will explore
-              suitable sourcing and export options from India.
-            </p>
-          </div>
-        </div>
-      </section>
+      {/* HERO */}    
 
       {/* MAIN CONTACT SECTION */}
       <section className="border-y border-slate-100 bg-slate-50 py-16 md:py-20">
@@ -127,72 +109,7 @@ ${form.name}
                 Whether you are looking for Indian spices or a specific spice requirement, share your details with us. 
                 We can discuss product specifications, quantity, packaging, pricing, 
                 and export requirements based on your market needs.
-              </p>
-
-              {/* CONTACT DETAILS */}
-              <div className="mt-10 space-y-6">
-                {/* ADDRESS */}
-                <a
-                  href= "https://www.google.com/maps/search/?api=1&query=Innov8+Q+Parc+Plot+No+GEN-4%2F1+Floor+13+Building+Q2+TTC+Industrial+Area+Ghansoli+Thane+Mumbai+400701"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group flex items-start gap-4"
-                >
-                  <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-amber-50 text-amber-600">
-                    <MapPin size={19} />
-                  </div>
-
-                  <div>
-                    <p className="font-semibold text-slate-950">
-                      Office Address
-                    </p>
-
-                    <p className="mt-1 text-sm leading-6 text-slate-600 group-hover:text-slate-950 transition">
-                      Innov8 Q Parc, Plot No. GEN-4/1, Floor 13, Building Q2,
-                      TTC Industrial Area, Ghansoli, Thane, Mumbai – 400701,
-                      Maharashtra, India
-                    </p>
-
-                    <p className="mt-1 text-xs font-medium text-amber-600 opacity-0 transition group-hover:opacity-100">
-                      View on Google Maps →
-                    </p>
-                  </div>
-                </a>
-
-                {/* PHONE */}
-                <a
-                  href="tel:+918369759857"
-                  className="group flex items-center gap-4"
-                >
-                  <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-amber-50 text-amber-600">
-                    <Phone size={18} />
-                  </div>
-
-                  <div>
-                    <p className="font-semibold text-slate-950">Phone</p>
-                    <p className="mt-1 text-sm text-slate-600 group-hover:text-slate-950 transition">
-                      +91 83697 59857
-                    </p>
-                  </div>
-                </a>
-
-                {/* EMAIL */}
-                <a
-                  href="mailto:pureharvestglobalexports@gmail.com"
-                  className="group flex items-center gap-4"
-                >
-                  <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-amber-50 text-amber-600">
-                    <Mail size={18} />
-                  </div>
-
-                  <div>
-                    <p className="font-semibold text-slate-950">Email</p>
-                    <p className="mt-1 text-sm text-slate-600 group-hover:text-slate-950 transition">
-                      pureharvestglobalexports@gmail.com
-                    </p>
-                  </div>
-                </a>
-              </div>
+              </p>             
 
               {/* WHAT TO SHARE */}
               <div className="mt-10 rounded-3xl bg-slate-950 p-7 md:p-8 text-white">
