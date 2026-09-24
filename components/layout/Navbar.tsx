@@ -1,3 +1,4 @@
+
 "use client";
 
 import Link from "next/link";
@@ -23,35 +24,27 @@ export default function Navbar() {
     <>
       <header className="sticky top-0 z-50 border-b border-slate-200/80 bg-white/90 backdrop-blur-xl">
         <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
-          <div className="flex h-[76px] items-center justify-between">
-            {/* LOGO */}
-           {/* LOGO */}
-<Link
-  href="/"
-  className="group flex items-center gap-3"
-  aria-label="Pure Harvest Global Exports - Home"
->
-  <div className="relative h-16 w-16 shrink-0">
-    <Image
-      src="/images/pureHarvest_logo.png"
-      alt="Pure Harvest Global Exports"
-      width={80}
-      height={80}
-      priority
-      className="h-16 w-16 object-contain transition-transform duration-300 group-hover:scale-105"
-    />
-  </div>
-
-  <div className="leading-none">
-    <div className="text-[17px] font-bold tracking-tight text-slate-950">
-      Pure Harvest
-    </div>
-
-    <div className="mt-1 text-[10px] font-semibold uppercase tracking-[0.18em] text-slate-500">
-      Global Exports
-    </div>
-  </div>
+          <div className="flex h-[76px] items-center justify-between">          
+           
+         {/* LOGO */}
+        <Link
+          href="/"
+          className="group flex items-center"
+          aria-label="Pure Harvest Global Exports - Home"
+        >
+        <div className="relative h-[70px] w-[180px] shrink-0">
+          <Image
+            src="/images/New_logo_PureHarvest.png"
+            alt="Pure Harvest Global Exports"
+            width={220}
+            height={90}
+            priority
+            className="h-full w-full object-contain transition-transform duration-300 group-hover:scale-[1.03]"
+          />
+        </div>
 </Link>
+
+
 
             {/* DESKTOP NAVIGATION */}
             <nav
@@ -61,7 +54,8 @@ export default function Navbar() {
               {navLinks.map((link) => {
                 const isActive =
                   pathname === link.href ||
-                  (link.href !== "/" && pathname.startsWith(`${link.href}/`));
+                  (link.href !== "/" &&
+                    pathname.startsWith(`${link.href}/`));
 
                 return (
                   <Link
@@ -81,6 +75,7 @@ export default function Navbar() {
 
             {/* RIGHT SIDE */}
             <div className="flex items-center gap-3">
+
               {/* REQUEST QUOTE */}
               <a
                 href="https://wa.me/918369759857"
@@ -119,3 +114,4 @@ export default function Navbar() {
     </>
   );
 }
+
