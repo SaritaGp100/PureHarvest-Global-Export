@@ -60,35 +60,29 @@ export default function MobileMenu({
       onClick={onClose}
     >
       {/* MENU PANEL */}
-      <div
-        className="absolute right-0 top-0 flex h-full w-[360px] max-w-[88vw] flex-col bg-white shadow-2xl"
+      <div       
+        className="absolute left-0 top-0 flex h-full w-[360px] max-w-[88vw] flex-col bg-white shadow-2xl"
         onClick={(e) => e.stopPropagation()}
       >
         {/* HEADER */}
         <div className="border-b border-slate-200 px-6 py-5">
           <div className="flex items-center justify-between">
             <div>
-              <p className="text-xs font-semibold uppercase tracking-[0.18em] text-amber-600">
-                Navigation
+              <p className="text-[10px] font-semibold uppercase tracking-[0.25em] text-amber-600">
+                Pure Harvest
               </p>
 
-              <h2 className="mt-1 text-lg font-bold tracking-tight text-slate-950">
-                Pure Harvest
+              <h2 className="mt-0.5 text-xl font-bold tracking-tight text-slate-950">
+                Global Exports
               </h2>
 
-              <p className="mt-0.5 text-xs text-slate-500">
-                Global Exports
-              </p>
+              <div className="mt-2 flex items-center gap-2">
+                <span className="h-px w-6 bg-amber-500" />
+                <p className="text-[10px] font-medium uppercase tracking-[0.16em] text-slate-500">
+                  Indian Spices • Global Sourcing
+                </p>
+              </div>
             </div>
-
-            <button
-              type="button"
-              onClick={onClose}
-              aria-label="Close navigation menu"
-              className="flex h-10 w-10 items-center justify-center rounded-xl border border-slate-200 text-slate-700 transition-all duration-300 hover:border-slate-300 hover:bg-slate-100 hover:text-slate-950"
-            >
-              <X size={21} />
-            </button>
           </div>
         </div>
 
