@@ -143,7 +143,7 @@ export default function Footer() {
 
               {/* Email */}
               <a
-                href="mailto:pureharvestglobalexports@gmail.com"
+                href="mailto:contact.pureharvest@gmail.com"
                 className="group flex min-w-0 items-start gap-3 text-sm transition hover:text-white"
               >
                 <Mail
@@ -157,7 +157,7 @@ export default function Footer() {
                   </span>
 
                   <span className="block break-all text-slate-300 group-hover:text-white sm:break-words">
-                    pureharvestglobalexports@gmail.com
+                    contact.pureharvest@gmail.com
                   </span>
                 </span>
               </a>
